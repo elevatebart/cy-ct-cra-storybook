@@ -1,0 +1,5 @@
+{
+  "fixturesFolder": false,
+  "testFiles": "**/*.test.tsx",
+  "componentFolder": "src"
+}
