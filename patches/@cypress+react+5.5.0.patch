@@ -1,0 +1,14 @@
+diff --git a/node_modules/@cypress/react/plugins/utils/get-transpile-folders.js b/node_modules/@cypress/react/plugins/utils/get-transpile-folders.js
+index 7aa701c..55fad94 100644
+--- a/node_modules/@cypress/react/plugins/utils/get-transpile-folders.js
++++ b/node_modules/@cypress/react/plugins/utils/get-transpile-folders.js
+@@ -1,6 +1,8 @@
++const path = require('path')
++
+ // @ts-check
+ function getTranspileFolders (config) {
+-  const folders = []
++  const folders = [path.resolve(config.projectRoot, '.storybook')]
+ 
+   // user can disable folders, so check first
+   if (config.componentFolder) {
