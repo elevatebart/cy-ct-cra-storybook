@@ -12,9 +12,13 @@
 // You can read more here:
 // https://on.cypress.io/configuration
 // ***********************************************************
+import { setGlobalConfig } from "@storybook/testing-react";
+import * as sbPreview from "../../.storybook/preview";
+
+// setGlobalConfig(sbPreview);
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import "./commands";
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
