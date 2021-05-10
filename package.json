@@ -1,5 +1,6 @@
 {
-  "name": "cy-ct-cra-ts-essentials",
+  "name": "cy-ct-cra-storybook",
+  "private": true,
   "scripts": {
     "build": "react-scripts build",
     "build-storybook": "build-storybook -s public",
