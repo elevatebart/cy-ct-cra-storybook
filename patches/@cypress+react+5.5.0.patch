@@ -8,7 +8,7 @@ index 7aa701c..25638b2 100644
  // @ts-check
  function getTranspileFolders (config) {
 -  const folders = []
-+  const folders = (config.addCompiledFolders || []).map(dir => path.resolve(config.projectRoot, dir))
++  const folders = (config.addTranspiledFolders || []).map(dir => path.resolve(config.projectRoot, dir))
  
    // user can disable folders, so check first
    if (config.componentFolder) {

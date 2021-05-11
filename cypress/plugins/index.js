@@ -4,7 +4,7 @@ const injectCraDevServer = require("@cypress/react/plugins/react-scripts");
  * @type {Cypress.PluginConfig}
  */
 module.exports = (on, config) => {
-  injectCraDevServer(on, { ...config, addCompiledFolders: [".storybook"] });
+  injectCraDevServer(on, { ...config, addTranspiledFolders: [".storybook"] });
 
   return config;
 };

@@ -9,6 +9,7 @@
     "storybook": "start-storybook -p 9009 -s public",
     "test": "react-scripts test",
     "cy": "cypress open-ct",
+    "cy:run": "cypress run-ct",
     "postinstall": "patch-package"
   },
   "browserslist": {

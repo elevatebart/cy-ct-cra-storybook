@@ -1,0 +1,19 @@
+version: 2.1
+
+jobs:
+  test-job:
+    docker:
+      - image: cypress/included:7.1.0
+    steps:
+      - checkout
+      - run: yarn install
+      - run: yarn cy:run
+      - store_artifacts:
+          path: cypress/screenshots
+      - store_artifacts:
+          path: cypress/videos
+
+workflows:
+  test-wf:
+    jobs:
+      - test-job
