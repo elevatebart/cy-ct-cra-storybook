@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@storybook/react/demo";
-import { StoryFunction } from "../Story";
+import { Story } from "@storybook/react";
 
 export default {
   title: "Button",
@@ -10,12 +10,12 @@ export default {
 
 const Template = (args: any) => <Button {...args} />;
 
-export const Text: StoryFunction = Template.bind({});
+export const Text: Story = Template.bind({});
 Text.args = {
   children: "Hello button",
 };
 
-export const Emoji: StoryFunction = Template.bind({});
+export const Emoji: Story = Template.bind({});
 Emoji.args = {
   children: "😀 😎 👍 💯",
 };

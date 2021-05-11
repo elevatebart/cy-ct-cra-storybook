@@ -1,12 +1,13 @@
-import React from 'react';
-import { linkTo } from '@storybook/addon-links';
-import { Welcome } from '@storybook/react/demo';
+import React from "react";
+import { linkTo } from "@storybook/addon-links";
+import { Welcome } from "@storybook/react/demo";
+import { Story } from "@storybook/react";
 
 export default {
-  title: 'Welcome',
+  title: "Welcome",
   component: Welcome,
 };
 
-export const toStorybook = () => <Welcome showApp={linkTo('Button')} />;
+export const toStorybook: Story = () => <Welcome showApp={linkTo("Button")} />;
 
-toStorybook.storyName = 'to Storybook';
+toStorybook.storyName = "to Storybook";
