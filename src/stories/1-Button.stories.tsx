@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@storybook/react/demo";
-import { Story } from "@storybook/react";
+import type { Story } from "@storybook/react";
 
 export default {
   title: "Button",

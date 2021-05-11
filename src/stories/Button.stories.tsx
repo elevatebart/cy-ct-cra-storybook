@@ -1,9 +1,9 @@
 import React from "react";
-import { Story, Meta } from "@storybook/react";
+import type { Story, Meta } from "@storybook/react";
 
 import { Button, ButtonProps } from "./Button";
 
-const meta = {
+const meta: Meta = {
   title: "Example/Button",
   component: Button,
   argTypes: {
