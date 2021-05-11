@@ -1,13 +1,12 @@
 import React from "react";
 
 export const decorators = [
-  (StoryFn, { globals: { locale = "en" } }) =>
-    React.Fragment({
-      children: [
-        React.createElement("div", { children: [locale] }),
-        React.createElement(StoryFn()),
-      ],
-    }),
+  (StoryFn, { globals: { locale = "en" } }) => (
+    <>
+      <div>{locale}</div>
+      <StoryFn />
+    </>
+  ),
 ];
 
 export const globalTypes = {

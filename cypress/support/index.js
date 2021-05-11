@@ -15,7 +15,7 @@
 import { setGlobalConfig } from "@storybook/testing-react";
 import * as sbPreview from "../../.storybook/preview";
 
-// setGlobalConfig(sbPreview);
+setGlobalConfig(sbPreview);
 
 // Import commands.js using ES2015 syntax:
 import "./commands";
