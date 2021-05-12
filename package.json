@@ -9,8 +9,7 @@
     "storybook": "start-storybook -p 9009 -s public",
     "test": "react-scripts test",
     "cy": "cypress open-ct",
-    "cy:run": "cypress run-ct",
-    "postinstall": "patch-package"
+    "cy:run": "cypress run-ct"
   },
   "browserslist": {
     "production": [
@@ -36,7 +35,7 @@
     "typescript": "^3.9.7"
   },
   "devDependencies": {
-    "@cypress/react": "^5.5.0",
+    "@cypress/react": "^5.7.0",
     "@cypress/webpack-dev-server": "^1.1.6",
     "@storybook/addon-essentials": "^6.2.0",
     "@storybook/addon-links": "^6.2.0",
@@ -46,7 +45,6 @@
     "@storybook/react": "^6.2.0",
     "@storybook/testing-react": "^0.0.10",
     "cypress": "^7.2.0",
-    "patch-package": "^6.4.7",
     "webpack": "4",
     "webpack-dev-server": "3"
   }
