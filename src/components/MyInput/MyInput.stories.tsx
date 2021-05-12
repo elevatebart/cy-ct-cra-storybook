@@ -11,3 +11,4 @@ const meta: Meta = {
 export default meta;
 
 export const Primary: Story = () => <MyInput value="test" />;
+export const Empty: Story = () => <MyInput />;
