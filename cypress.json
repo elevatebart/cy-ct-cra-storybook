@@ -1,5 +1,5 @@
 {
   "fixturesFolder": false,
   "testFiles": "**/*.test.tsx",
-  "componentFolder": "src/stories"
+  "componentFolder": "src/components"
 }
