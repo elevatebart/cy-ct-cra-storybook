@@ -6,7 +6,7 @@ This is an example of how storybook and cypress can work together hand in hand.
 
 `yarn cy` opens the cypress component testing environment.
 
-## Steps to get to this Repo
+## How to setup Storybook with cypress component testing
 
 1. Create react app `yarn create create-app <project-name>`
 2. Initialize storybook using `npx -p @storybook/cli sb init`
