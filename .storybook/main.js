@@ -22,6 +22,6 @@ module.exports = {
     return config;
   },
   core: {
-    builder: 'webpack4',
+    builder: 'webpack5',
   },
 };
